@@ -85,14 +85,13 @@ function playToFive() {
           console.log("Player Wins, computer had " + computerMove)
           break;
         default:
-          console.log("Game finished in a " + winner)
+          console.log("Game finished in a " + winner);
       }
     }
     return [playerWins, computerWins];
 }
 function playTo(x) {
     console.log("Let's play Rock, Paper, Scissors");
-    var x;
     var playerWins = 0;
     var computerWins = 0;
     var winner;
@@ -106,14 +105,14 @@ function playTo(x) {
       switch (winner) {
         case 'computer':
           computerWins += 1;
-          console.log("Computer Wins with " + computerMove)
+          console.log("Computer Wins with " + computerMove);
           break;
         case 'player':
           playerWins += 1;
-          console.log("Player Wins, computer had " + computerMove)
+          console.log("Player Wins, computer had " + computerMove);
           break;
         default:
-          console.log("Game finished in a " + winner)
+          console.log("Game finished in a " + winner);
       }
     }
     return ['player ' + playerWins, 'computer ' + computerWins];
